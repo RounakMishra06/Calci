@@ -1,0 +1,119 @@
+#calculator{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+#display {
+   margin: 10px;
+   width: 85%;
+   font-size: 25px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button {
+    width: 45px;
+    height: 45px; 
+    margin: 5px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#calculator {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+#display {
+    margin: 10px 0;
+    width: 100%;
+    font-size: 28px;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    outline: none;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #2575fc;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+    transform: scale(0.95);
+    background-color: #6a11cb;
+    color: white;
+}
+
+.button:nth-child(1) { /* C button */
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.button:nth-child(1):hover {
+    background-color: #e60000;
+}
+
+.button:nth-child(14) { /* = button */
+    background-color: #28a745;
+    color: white;
+}
+
+.button:nth-child(14):hover {
+    background-color: #1e7e34;
+}
+#calculator{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+#display {
+   margin: 10px;
+   width: 85%;
+   font-size: 25px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button {
+    width: 45px;
+    height: 45px; 
+    margin: 5px;
+}
